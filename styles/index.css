@@ -1,0 +1,267 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primarycolor: #ff487e; /* #c8d9eb;*/
+  --secondarycolor: #070707;
+  --fadedcolor: #898888;
+  --btn-background: #c8d9eb;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  background-color: #ecf2f9;
+  height: 100vh;
+  width: 100vw;
+}
+.wrapper {
+  width: 95vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* ************ GLOBAL ************/
+/* These are the classes/elements that are used repeatedly in all pages */
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  text-align: justify;
+}
+.section-blog {
+  margin-top: 3rem;
+}
+.section-header {
+  margin-bottom: 2rem;
+}
+/* ** HEADER ***/
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90rem;
+  max-height: auto;
+  margin-bottom: 2rem;
+  padding: 3rem;
+}
+.header-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.header-link {
+  transition: 0.3s smooth;
+}
+.header-link:hover {
+  color: var(--primarycolor);
+}
+.header-list a {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: var(--secondarycolor);
+}
+
+#btn-header-cta {
+  border: 2.5rem 3rem;
+  padding: 1rem;
+  background-color: var(--primarycolor);
+  border-radius: 10px;
+  color: #ffffff;
+  transition: 0.3s smooth;
+}
+#btn-header-cta:hover {
+  background-color: var(--btn-background);
+  color: var(--primarycolor);
+}
+.p-logo {
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #555;
+  margin-left: 2rem;
+}
+small {
+  font-style: italic;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.header-date {
+  color: var(--fadedcolor);
+  line-height: 1.7rem;
+}
+.section-content {
+  line-height: 1.7rem;
+}
+.section-articles-header {
+  color: blue;
+}
+.section-articles {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.7rem;
+}
+.section-articles-links {
+  color: #070707;
+}
+.section-articles-links:hover {
+  color: blue;
+}
+
+.share-icons {
+  margin-top: 3.2rem;
+}
+.share-icon-highlight {
+  color: blue;
+}
+.fab {
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+}
+.fab:hover {
+  color: blue;
+}
+
+/* FORM **/
+/* Newsletter */
+.section-newsletter {
+  width: 100%;
+  padding: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.7rem;
+  background-color: #ffff;
+}
+.newsletter-header {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.newsletter-content {
+  margin-bottom: 2rem;
+}
+.newsletter-btn {
+  margin-top: 2rem;
+  padding: 0.5rem 1.8rem;
+  border-radius: 1.2rem;
+  background-color: var(--btn-background);
+  color: #ffff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.newsletter-btn:hover {
+  cursor: pointer;
+  background-color: var(--primarycolor);
+}
+.newsletter-policy {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: smaller;
+  line-height: normal;
+}
+
+/*SECTION: CONTENT */
+.p-align {
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+.parents-p {
+  margin-top: 2rem;
+}
+.parents-first-p {
+  margin-top: 2rem;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+input {
+  color: var(--fadedcolor);
+  opacity: 0.7;
+  padding: 0.5rem 1.8rem;
+}
+
+/** FOOTER **/
+footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 4rem;
+  margin-top: 2rem;
+}
+.footer-div {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.footer-nav {
+  color: var(--fadedcolor);
+  line-height: 2rem;
+}
+.footer-nav:hover {
+  color: var(--primarycolor);
+}
+
+.follow-icons {
+  display: flex;
+  gap: 1.2rem;
+}
+.fab-custom {
+  margin-top: 1.2rem;
+  font-size: medium;
+  color: var(--fadedcolor);
+}
+/********************END OF GLOBAL*******************/
+
+/********** HERO SECTION (landing page) ******** */
+.section-hero {
+  height: 80vh;
+  width: 90vw;
+  margin: 0 auto;
+  background-image: url(../images/pic-toddler.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+.hero-ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  max-width: 100%;
+  padding-bottom: 4rem;
+}
+.hero-category-link {
+  display: flex;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #ffff;
+  transition: 0.3s smooth;
+}
+.hero-category-link:hover {
+  color: var(--primarycolor);
+}
+.hero-link-list {
+  border: 2.5rem 3rem;
+  padding: 1rem;
+  background-color: var(--primarycolor);
+  border-radius: 10px;
+  transition: 0.3s smooth;
+}
+.hero-link-list:hover {
+  background-color: var(--btn-background);
+}
