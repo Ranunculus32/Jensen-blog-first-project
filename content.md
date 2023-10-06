@@ -105,3 +105,26 @@ https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sciencelearn.org.nz%2Freso
 Kiss. A simple affirmation in this chaotic new schedule makes a lot of difference. Remember parenthood, is both a joy and a burden for you and your partner to carry on for the next 18 years. Might as well make it nice by being affectionate with your partner. 
 
 Hug. When one is overwhelmed emotionally or physically with the demanding duties at home, hug can go further than words ever could. Hug your partner specially when he or she do not deserve it. Having a loving, gentle and supportive partnership is more than what a child needs. A child who grow up with parents who choose to love each other most of the days, has a good start in life. 
+
+*********** More practical tips *****************
+1. Travelling with kids
+2. How to manage having kids on events?
+3. Teaching toddler good table manners
+4. The right time for potty training
+5. To co-sleep or not?
+
+
+**********ABOUT PAGE**********
+When I was in my teen, I always thought I had a good childhood. I laugh with friends on how we are beaten, hanged inside a sack, and sometimes starved as a form of discipline if we messed around. Sorrounded with people with similar background, it just sounds so normal that we even compare each other's severity of punishment and laugh about it. 
+
+In my adulthood I left Asia and move to Europe and start having healthy relationships. I look back on my childhood days, and it made me extremely sad. I now can see in my adult eyes how deprived, abused and neglected I was. 
+
+I worked as a preschool teacher for many years, and it gave me the possibility to allow children's playfullness without severe consequences and go with them in their wild curiosity of this world. It was a beautiful job seeing the beauty of the world again in the eyes of innocent children.
+
+Now a mother myself of two beautiful children, I used the knowledge and experience as a preschool teacher to bring up my children. And I swore that I will not pass on the abuse I suffer. They will have a good life and a happy childhood.
+
+With this responsibility in mind, I created this blog to write down all my wishes and hopes and practices to make my goal come true. 
+
+I am responsible of their childhood, I will make it the best they could ever wished for. They will be taught, guided and loved.
+
+This blog, reflects the love of a mother towards her children while struggling with multiple responsibilities in life as a modern woman. 
