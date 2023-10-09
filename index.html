@@ -7,21 +7,21 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/favicon/apple-touch-icon.png"
+      href="./favicon/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/favicon/favicon-32x32.png"
+      href="./favicon/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/favicon/favicon-16x16.png"
+      href="./favicon/favicon-16x16.png"
     />
-    <link rel="manifest" href="/favicon/site.webmanifest" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
     <link rel="stylesheet" href="styles/index.css" />
     <meta
       name="description"
@@ -30,8 +30,8 @@
     <meta name="robots" content="index, follow" />
   </head>
   <body>
-    <div class="wrapper">
-      <header>
+    <div class="wrapper hero-wrapper">
+      <header class="hero-header hero-header-custom">
         <div class="header-left">
           <a href="index.html"
             ><img class="logo-img" src="images/logo.png" alt="Logo"
@@ -44,7 +44,7 @@
                 <a href="index.html" class="header-link">Home</a>
               </li>
               <li class="header-list">
-                <a href="/pages/about.html" class="header-link">About</a>
+                <a href="./pages/about.html" class="header-link">About</a>
               </li>
               <li class="header-list">
                 <a href="#" class="header-link">Contact</a>
@@ -59,19 +59,24 @@
         </div>
       </header>
       <section class="section-hero">
-        <ul class="hero-ul">
-          <li class="hero-link-list">
-            <a href="#" class="hero-category-link">Home</a>
-          </li>
-          <li class="hero-link-list">
-            <a href="./pages/parents.html" class="hero-category-link"
-              >Motherhood</a
-            >
-          </li>
-          <li class="hero-link-list">
-            <a href="#" class="hero-category-link">Kids</a>
-          </li>
-        </ul>
+        <div class="hero-img-container">
+          <img src="./images/pic-toddler.jpg" class="hero-img" />
+        </div>
+        <div class="hero-categories">
+          <ul class="hero-ul">
+            <li class="hero-link-list">
+              <a href="#" class="hero-category-link">Home</a>
+            </li>
+            <li class="hero-link-list">
+              <a href="./pages/parents.html" class="hero-category-link"
+                >Motherhood</a
+              >
+            </li>
+            <li class="hero-link-list">
+              <a href="#" class="hero-category-link">Kids</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </div>
   </body>
