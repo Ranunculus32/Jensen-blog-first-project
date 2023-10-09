@@ -100,7 +100,7 @@ body {
 .parents-content-caps {
   font-size: 1.7rem;
 }
-/*Shown only when in small screen*/
+/*Header nav visible only when in small screen*/
 .toggle-btn {
   position: absolute;
   top: 2.5rem;
@@ -209,6 +209,7 @@ header {
 .section-wrapper {
   display: flex;
   width: 100%;
+  padding-left: 2rem;
 }
 aside {
   margin-top: 2rem;
@@ -274,6 +275,7 @@ figcaption {
 
 .share-icons {
   margin-top: 3.2rem;
+  padding-left: 2rem;
 }
 .share-icon-highlight {
   color: blue;
@@ -357,6 +359,7 @@ footer {
   width: 100%;
   gap: 4rem;
   margin-top: 2rem;
+  padding-left: 2rem;
 }
 .footer-div {
   margin-top: 3rem;
@@ -453,7 +456,7 @@ footer {
     width: 100%;
   }
   aside {
-    margin: 2rem 0;
+    margin: 2rem 0 0 2rem;
     width: 90%;
     padding: 0;
   }
