@@ -1,0 +1,39 @@
+{
+  "name": "jensen-blog-first-project",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "As of October 2023 this is a blog using only HTML and CSS This is a continuosly evolving blog site as I will upload articles ( I wrote them myself)  along the way. I will also encorporate and apply the lessons learned from the Frontend program that I am currently studying in Jensen yrkehögskola.",
+  "main": "app.mjs",
+  
+   
+  "scripts": {
+    "start": "app.mjs",
+    "dev": "nodemon app.mjs"
+  },
+ 
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ranunculus32/Jensen-blog-first-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ranunculus32/Jensen-blog-first-project/issues"
+  },
+  "homepage": "https://github.com/Ranunculus32/Jensen-blog-first-project#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+    
+  }
+}
+
