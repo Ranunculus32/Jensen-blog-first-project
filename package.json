@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "type": "module",
   "description": "As of October 2023 this is a blog using only HTML and CSS This is a continuosly evolving blog site as I will upload articles ( I wrote them myself)  along the way. I will also encorporate and apply the lessons learned from the Frontend program that I am currently studying in Jensen yrkehögskola.",
-  "main": "app.mjs",
+  "main": "app.js",
   
    
   "scripts": {
-    "start": "app.mjs",
-    "dev": "nodemon app.mjs"
+    "start": "app.js",
+    "dev": "nodemon app.js"
   },
  
   "repository": {
